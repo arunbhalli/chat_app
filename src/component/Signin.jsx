@@ -1,5 +1,5 @@
 import React from 'react';
-import firebase from 'firebase/app';
+import firebase from 'firebase/compat/app';
 import { Container, Grid, Row, Panel, Col, Button, Icon, Alert } from 'rsuite';
 import { auth, database } from '../misc/firebase';
 const Signin = () => {
